@@ -5,15 +5,21 @@ body {
 
 a {
     text-decoration: none;
-    
 }
+
+li {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    padding-left: 0.8rem;
+}
+
 #sidebar {
     height: 100%;
     padding: 0;
 }
 
 #titleNav {
-    padding: 12px;
+    padding: 1rem;
 }
 
 #authorNav {
@@ -31,4 +37,20 @@ a {
     border-radius: 50px;
     text-align: center;
     box-shadow: 2px 2px 3px #999;
-  }
+}
+
+.listItem {
+    font-size: 1.4rem;
+}
+
+.subListItem {
+    font-size: 1.1rem;
+}
+
+.listItem:hover, .subListItem a:hover {
+    text-decoration-line: underline;
+}
+
+.section {
+    margin-bottom: 0.9rem;
+}
