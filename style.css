@@ -54,3 +54,8 @@ li {
 .section {
     margin-bottom: 0.9rem;
 }
+
+.githubLink {
+    padding: 1rem;
+    text-decoration: none;
+}
