@@ -67,3 +67,12 @@ td {
     width: 25%;
 }
 
+.ptext {
+    text-indent: 30px;
+    font-size: 1.1rem;
+    
+}
+
+.section {
+    margin-top: 30px;
+}
